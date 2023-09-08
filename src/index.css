@@ -1,0 +1,15 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.CodeMirror {
+    height:340px !important;
+    color:#fff !important;
+}
+.CodeMirror-gutters{
+  background:#1d1e22 !important ;
+}
+.CodeMirror-scroll{
+  background: #1d1e22;
+}
