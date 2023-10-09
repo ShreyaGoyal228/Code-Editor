@@ -9,9 +9,10 @@ const Result= () =>{
     const v=useContext(DataContext);
     const srcCode=`
     <html>
-    <body>${v.html}</body>
+    <body>${v.html}
     <style>${v.css}</style>
     <script>${v.js}</script>
+    </body>
     </html>
     `;
     useEffect(()=>{

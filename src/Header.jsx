@@ -2,6 +2,7 @@ import {AppBar , Toolbar ,Box, styled} from '@mui/material';
  import ModeEditOutlineIcon from '@mui/icons-material/ModeEditOutline';
 const Container = styled(AppBar)`
 background: #060606;
+width:100%;
 height:9vh;
 border-bottom: 1px solid #2f2f2f;
 `;
